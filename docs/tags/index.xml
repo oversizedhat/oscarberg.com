@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Oscar Berg</title>
+    <link>https://oversizedhat.github.io/oscarberg.com/tags/</link>
+    <description>Recent content in Tags on Oscar Berg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Nov 2020 14:39:18 +0000</lastBuildDate><atom:link href="https://oversizedhat.github.io/oscarberg.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arduino</title>
+      <link>https://oversizedhat.github.io/oscarberg.com/tags/arduino/</link>
+      <pubDate>Mon, 09 Nov 2020 14:39:18 +0000</pubDate>
+      
+      <guid>https://oversizedhat.github.io/oscarberg.com/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>food</title>
+      <link>https://oversizedhat.github.io/oscarberg.com/tags/food/</link>
+      <pubDate>Mon, 09 Nov 2020 14:39:18 +0000</pubDate>
+      
+      <guid>https://oversizedhat.github.io/oscarberg.com/tags/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grafana</title>
+      <link>https://oversizedhat.github.io/oscarberg.com/tags/grafana/</link>
+      <pubDate>Mon, 09 Nov 2020 14:39:18 +0000</pubDate>
+      
+      <guid>https://oversizedhat.github.io/oscarberg.com/tags/grafana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hamster</title>
+      <link>https://oversizedhat.github.io/oscarberg.com/tags/hamster/</link>
+      <pubDate>Mon, 09 Nov 2020 14:39:18 +0000</pubDate>
+      
+      <guid>https://oversizedhat.github.io/oscarberg.com/tags/hamster/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

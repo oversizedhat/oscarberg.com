@@ -1,0 +1,8 @@
+{{ define "main" }}
+  {{- partial "jumbome.html" . -}}
+  {{ range .Pages }}
+    <div class="container" style="background-color:{{ .Params.color }};">
+        {{ .Content }}
+    </div>
+  {{ end }}
+{{ end }}

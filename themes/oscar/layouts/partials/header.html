@@ -1,0 +1,17 @@
+
+    <nav id="nav" class="navbar sticky-top shadow p-3 mb-5 bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">OWB</a>
+            
+            {{ range .Site.Menus.main }}
+            <a class="nav-link" href="{{ .URL }}">
+            {{ if .Pre }}
+                {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+                {{ $icon }}
+            {{ end }}
+            {{ $text := print .Name | safeHTML }}
+            {{ $text }}
+            </a>
+            {{ end }}
+        </div>
+    </nav>
