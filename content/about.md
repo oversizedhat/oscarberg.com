@@ -8,7 +8,7 @@ color: "white"
 
 - Since starting within IT in 2004 I've dealt mostly with games development and web, but I've figured that it does not matter what I do. The fun lies in the creation process.
 
-- I have good understanding of the fundamentals of the modern development setup including VCSs, package managers, artifact managers and registries, build systems etc.
+- I have good understanding of the fundamentals of the modern software development setup including VCSs, package managers, artifact managers and registries, build systems etc.
 
 - I like the overall DevOps concepts of value streams and finding good ways of visualizing and automating the regular flow of work.
 
