@@ -10,11 +10,17 @@
          class="img-fluid"
           src="{{ $item | absURL }}"
         />
+        {{ else if eq (substr $item 0 1) ":" }}
+          <p class="text-center"> {{emojify $item}}</p>
   
         {{ else }}
         <p class="lead">{{ . | safeHTML }}</p>
         {{ end }}
         {{ end }}
+
+      
+      
+       
         <!--{{ .Content }}-->
     </div>
   {{ end }}

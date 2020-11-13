@@ -4,6 +4,7 @@ title = "Oscar Wendelin Berg"
 publishDir = "docs"
 theme = "oscar"
 pluralizeListTitles = false
+enableEmoji = true
 
 [params]
   owner = "Oscar Wendelin Berg"
