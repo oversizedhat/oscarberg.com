@@ -1,13 +1,22 @@
 <div class ="container">
+<script type="text/javascript">
+  function MeMail() {
+    var memail = atob({{.Site.Params.contact64 }});
+    if (document.getElementById('getintouch').text.indexOf("@") != -1) {
+      window.location.href = "mailto:"+memail;
+    }
+    document.getElementById('getintouch').text=memail;
+  }
+</script>
     <div class="jumbotron">
       <img
         class="img-responsive"
         src="{{ "img/dude.png" | absURL }}"
-        alt="Header Logo"
+        alt="dude"
       />
-      <h1 class="display-4">Oscar Wendelin Berg</h1>
+      <h1 class="display-4">{{.Site.Params.owner | safeHTML}}</h1>
       <h2>Software Developer & leader</h2>
       <p class="lead">I am a generalist software developer, architect and leader with broad interest in development of products, workflows and tools.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Get in touch</a>
+      <a class="btn btn-primary btn-lg" id="getintouch" role="button" onclick="MeMail()">Get in touch</a>
     </div>
 </div>

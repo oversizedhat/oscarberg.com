@@ -2,7 +2,20 @@
   {{- partial "jumbome.html" . -}}
   {{ range .Pages }}
     <div class="container" style="background-color:{{ .Params.color }};">
-        {{ .Content }}
+        {{ range .Params.brags }}
+        {{ $item := . }}
+        {{ if eq (substr $item 0 4) "img/" }}
+    
+        <img
+         class="img-fluid"
+          src="{{ $item | absURL }}"
+        />
+  
+        {{ else }}
+        <p class="lead">{{ . | safeHTML }}</p>
+        {{ end }}
+        {{ end }}
+        <!--{{ .Content }}-->
     </div>
   {{ end }}
 {{ end }}

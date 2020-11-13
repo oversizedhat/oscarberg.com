@@ -1,8 +1,9 @@
 {{ define "main" }}
 <div class="container">
-<h1>{{ .Title }}</h1>
-{{ partial "metadata.html" . }}
-<br><br>
-{{ .Content }}
+    {{ partial "alltags.html" . }}
+    <h4>{{ .Title }}</h4>
+    {{ .Content }}
+    {{ partial "metadata.html" . }}
+    <br><br>
 </div>
 {{ end }}

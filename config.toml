@@ -1,19 +1,25 @@
-baseURL = ""
+baseURL = "http://192.168.0.204:1313/"
 languageCode = "en-us"
-title = "Oscar Berg"
+title = "Oscar Wendelin Berg"
 publishDir = "docs"
 theme = "oscar"
+pluralizeListTitles = false
+
+[params]
+  owner = "Oscar Wendelin Berg"
+  projectSource = "https://github.com/oversizedhat/oscarberg.com"
+  contact64 = "b3NjYXJAb3NjYXJiZXJnLmNvbQ=="
 
 [menu]
+#  [[menu.main]]
+#    name = "Home"
+#    pre = "home"
+#    url = "/"
+#    weight = 1
   [[menu.main]]
-    name = "Home"
-    pre = "home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Posts"
-    pre = "post"
-    url = "/posts/"
+    name = "Blog"
+    pre = "blog"
+    url = "/blog/"
     weight = 2
 #  [[menu.main]]
 #    name = "Tags"

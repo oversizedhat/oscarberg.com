@@ -1,3 +1,4 @@
 <div class="container">
-    <p class="footer text-center">{{ now.Format "2006"}} Oscar Wendelin Berg</p>
+    <p class="footer text-center">{{ now.Format "2006"}} {{.Site.Params.owner | safeHTML}}</p>
+    <p class="footer text-center"><a href="{{.Site.Params.projectSource }}">If you are keen on building a page like this, the source code is here..</a></p>
 </div>

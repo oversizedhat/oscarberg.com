@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="container">
+    {{ partial "alltags.html" . }}
+    <h3>Tag: {{ .Title }}</h3> tags
+    {{ range .Pages.ByPublishDate.Reverse }}
+    <p>
+        <h4><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+        {{ partial "metadata.html" . }}
+        {{ .Content }}
+
+    <!-- <a class="summary" href="{{ .RelPermalink }}">
+            <p>{{ .Summary }}</p>
+        </a>-->
+    </p>
+    {{ end }}
+</div>
+{{ end }}

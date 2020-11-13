@@ -1,0 +1,6 @@
+{{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
+{{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+    <a class="btn btn-outline-primary" href={{ .RelPermalink }} role="button">{{$name}} <sup>{{$cnt}}</sup></a>
+{{end}}
+{{end}}
+<hr/>
