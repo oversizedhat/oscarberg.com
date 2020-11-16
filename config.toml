@@ -1,4 +1,4 @@
-baseURL = "http://192.168.0.204:1313/"
+baseURL = ""
 languageCode = "en-us"
 title = "Oscar Wendelin Berg"
 publishDir = "docs"
@@ -10,6 +10,8 @@ enableEmoji = true
   owner = "Oscar Wendelin Berg"
   projectSource = "https://github.com/oversizedhat/oscarberg.com"
   contact64 = "b3NjYXJAb3NjYXJiZXJnLmNvbQ=="
+  contactLinkedIn = "https://www.linkedin.com/in/bergoscar"
+  contactGithub = "https://github.com/oversizedhat"
 
 [menu]
 #  [[menu.main]]
