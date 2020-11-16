@@ -1,0 +1,16 @@
+'docker run --rm -v ${PWD}:/work -w /work miy4/plantuml plantuml.puml
+
+@startuml
+left to right direction
+
+'wraps note and component texts
+skinparam wrapWidth 150
+
+Oscar << Human >>
+
+(PlantUML) as puml
+note left of Oscar: And I know when it's a good time to lighten up long boring text with a fancy diagram
+
+Oscar --> puml:likes
+
+@enduml
