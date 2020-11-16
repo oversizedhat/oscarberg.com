@@ -4,6 +4,7 @@
 
 set -e
 
+# TODO prevent accidentally chaging git config if running from local machine...
 echo $GITHUB_AUTH_SECRET > ~/.git-credentials && chmod 0600 ~/.git-credentials
 git config --global credential.helper store
 git config --global user.email "oversizedhat-bot@users.noreply.github.com"
