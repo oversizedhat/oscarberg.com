@@ -12,6 +12,7 @@ enableEmoji = true
   contact64 = "b3NjYXJAb3NjYXJiZXJnLmNvbQ=="
   contactLinkedIn = "https://www.linkedin.com/in/bergoscar"
   contactGithub = "https://github.com/oversizedhat"
+  googleAnalyticsMesurementId = "G-SKB7HW5GSZ"
 
 [menu]
 #  [[menu.main]]
