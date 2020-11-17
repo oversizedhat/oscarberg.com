@@ -11,7 +11,7 @@
     <h1>All posts</h1>
     {{ range .Pages.ByPublishDate.Reverse }}
     <p>
-        <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <h4><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
         {{ partial "metadata.html" . }}
     </p>
     {{ end }}
