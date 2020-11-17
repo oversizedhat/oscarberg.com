@@ -4,7 +4,7 @@ install:
   - sudo dpkg -i /tmp/hugo.deb
 
 script:
-  - hugo -b https://oversizedhat.github.io/oscarberg.com-dev
+  - hugo -b https://oversizedhat.github.io/oscarberg.com-dev --minify
 
 deploy:
   - provider: script
