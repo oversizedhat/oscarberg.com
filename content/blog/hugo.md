@@ -59,9 +59,11 @@ oscarberg.com/main> hugo new theme oscar
 Or basically I pretty much followed this guide: https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/'
 Again it came with Bootstrap, but now I was more ready to understand that I needed some kind of UI framework and why not Bootstrap. It felt like a good choice for what I wanted to do, which as to keep it simple.
 
-#### Take aways
+#### Takeaways
 This website is the output so far. With sources public in github: https://github.com/oversizedhat/oscarberg.com.
 
 As it's not possible to use GitHub pages out of the box with Hugo, I added a travis build step that compiles the sources in one repo and pushes them to another, which is acting "stage" environment for the real website.
 
-Based on the few hours of experience so far it's hard to say yey or ney to Hugo. I am still a bit unsure of the theme concept. And coming from the Nodejs+npm world I dislike this way of adding external dependencies by pasting in minified js files in my own repo. (package.json come rescue me!!). But on the other hand it has been very easy to work with Hugo, and lightning fast. AND I dont have to look at a node_modules folder with 1000 dependencies. But then again I haven't come to the complex stuff yet, and with more complexity comes the need for proper test automation. And I have no idea of browser support. So we will see where this lands in the end.
+Based on the few hours of experience so far it's hard to say yey or ney to Hugo. I am still a bit unsure of the theme concept. It feels wobbly to incorporate a theme and then just copy paste/modify your own site overriding whatever feels relevant. And doing so without any kind of valdation/test automation feels very risky, and complex to eventually update in case of a updated theme. And coming from the Nodejs+npm world I dislike this way of adding external dependencies by pasting in minified js files in my own repo (package.json come rescue me!!). 
+
+On the other hand it has been very easy to work with Hugo, and it is lightning fast. AND I dont have to look at a node_modules folder with 1000 dependencies. But then again I haven't come to any complex stuff yet. I have pretty much worked within the standard boundries of Hugo+Bootstrap with hardly any code. With more complexity comes the need for proper test automation. And browser support, polyfills etc. So we will see where this lands in the end. For this basic purpose Hugo has been nice and easy to work with, but for a more complex site I am hesitant atm.

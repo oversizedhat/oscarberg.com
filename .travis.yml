@@ -8,7 +8,7 @@ script:
 
 deploy:
   - provider: script
-    script: bash deploy.sh
+    script: bash deploy-dev.sh
     skip_cleanup: true
     on:
       branch: main

@@ -72,7 +72,7 @@ And include it it in the markdown:
 {% include video_embed.html %}
 ```
 ----
-#### Take aways
+#### Takeaways
 - This was the result: https://oversizedhat.github.io/hamstermonitor/
 - It was indeed an easy setup. No time wasted on boilerplates or thinking about workflows and frameworks.
 - The theme concept is indeed nice and allowed me to effectively postpone the decision to select a theme until the last minute basically. I really like that, as it allowed me to decide on a theme/style when I was finished with the content, and not the other way around.
