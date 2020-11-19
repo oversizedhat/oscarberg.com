@@ -23,7 +23,7 @@ Host rpi
 # this will prompt for password
 ssh-copy-id rpi
 ```
-6. But afterwards you are can login without any password
+6. ...and afterwards you are can login without any password
 ```bash
 ssh rpi
 Linux raspberrypi 5.4.51-v7l+ #1333 SMP Mon Aug 10 16:51:40 BST 2020 armv7l
@@ -47,7 +47,7 @@ rm -rf get-docker.sh
 sudo usermod -aG docker pi
 sudo pip3 install docker-compose
 ```
-Now you are set to do whatever kind of madness you set to to do.
+Now you are set up to do whatever kind of madness you set out to do.
 
 ----
 #### Bonus, copy a local directory to your Pi
