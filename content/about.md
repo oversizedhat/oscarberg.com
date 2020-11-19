@@ -15,7 +15,7 @@ brags: [
     "I enjoy fiddling with Node.js and trying to keep up in the fast-moving JavaScript community.",
   #  'img/nodejs.png','img/npm.png',
     ":coffee:",
-    "I have spend a lots of time in a love/hate relationship with Jenkins and it's myriad of plugins.",
+    "I have spent a lots of time in a love/hate relationship with Jenkins and it's myriad of plugins.",
     ":white_check_mark:",
     "I have a decent understanding of cloud. I've seen the light in the configuration tunnel (embraced IaC principles with Serverless Framework, CloudFormation templates, Ansible playbooks and more).",
   #  'img/aws.png',
