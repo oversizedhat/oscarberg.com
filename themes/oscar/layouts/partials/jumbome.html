@@ -8,12 +8,7 @@
     document.getElementById('getintouch').text=memail;
   }
 </script>
-    <div class="jumbotron">
-      <img
-        class="img-responsive"
-        src="{{ "img/dude.png" | absURL }}"
-        alt="dude"
-      />
+    <div class="jumbotron" style="background-image:url('{{"img/bg5.jpg" | relURL }}')">
       <h1 class="display-4">{{.Site.Params.owner | safeHTML}}</h1>
       <h2>Software Developer & leader</h2>
       <p class="lead">I am a generalist software developer, architect and leader with broad interest in development of products, workflows and tools.</p>
