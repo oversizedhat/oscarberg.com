@@ -1,6 +1,8 @@
   server:
     image: klakegg/hugo
-    command: server --port 8080
+    environment:
+      - "DEV_SERVER_PRIVATE_IP=${DEV_SERVER_PRIVATE_IP}"
+    command: server --port 8080 -b $DEV_SERVER_PRIVATE_IP
     volumes:
       - ".:/src"
     ports:
