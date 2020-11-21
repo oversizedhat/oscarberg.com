@@ -26,3 +26,5 @@ if you don't have or want to install hugo in your env you might as well run hugo
 hugo new blog/look-at-me.md
 ```
 
+### Other notes
+Using applause-button made by https://github.com/ColinEberhardt/ - https://applause-button.com/

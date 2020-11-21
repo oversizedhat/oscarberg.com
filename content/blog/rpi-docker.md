@@ -18,12 +18,12 @@ Host rpi
     User pi
     Port 22
 ```
-5. Feed a public key to the Pi to avoid hassle of using passwords
+5. Feed a public key to the Pi to avoid hassle of using passwords.
 ```bash
 # this will prompt for password
 ssh-copy-id rpi
 ```
-6. ...and afterwards you are can login without any password
+6. ...and afterwards you can login without any password.
 ```bash
 ssh rpi
 Linux raspberrypi 5.4.51-v7l+ #1333 SMP Mon Aug 10 16:51:40 BST 2020 armv7l

@@ -2,8 +2,15 @@
 <div class="container">
     {{ partial "alltags.html" . }}
     <h4>{{ .Title }}</h4>
+    {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+    {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+    <time datetime="{{ $dateTime }}"><p class="small">{{ .PublishDate.Format $dateFormat }}</p></time>
     {{ .Content }}
+    <br/>
+    <div>
+        <applause-button style="width: 58px; height: 58px;"/>
+    </div>
+    <br/>
     {{ partial "metadata.html" . }}
-    <br><br>
 </div>
 {{ end }}
