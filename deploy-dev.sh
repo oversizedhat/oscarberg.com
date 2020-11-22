@@ -29,7 +29,7 @@ cd target
 git add .
 # we need the || true, as sometimes you do not have any content changes
 # and git woundn't commit and you don't want to break the CI because of that
-git commit -am $commitMessage || true
+git commit -am "$commitMessage" || true
 git push
 
 cd ..
