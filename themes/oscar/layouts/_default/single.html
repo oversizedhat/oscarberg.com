@@ -7,10 +7,6 @@
     <time datetime="{{ $dateTime }}"><p class="small">{{ .PublishDate.Format $dateFormat }}</p></time>
     {{ .Content }}
     <br/>
-    <div>
-        <applause-button style="width: 58px; height: 58px;"/>
-    </div>
-    <br/>
     {{ partial "metadata.html" . }}
 </div>
 {{ end }}

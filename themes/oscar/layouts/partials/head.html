@@ -12,12 +12,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ "css/bootstrap.min.css" | absURL }}">
 
-    <!-- applause button style & script v 3.3.2-->
-    {{ if .Params.tags }}
-      <link rel="stylesheet" type="text/css" href="{{ "css/applause-button.css" | absURL }}" />
-      <script src="{{ "js/applause-button.js" | absURL }}"></script>
-    {{ end }}
-
     {{/* Minify css */}}
     {{ $css := resources.Get "css/style.css" }}
     {{ $style := $css | resources.Minify }}
