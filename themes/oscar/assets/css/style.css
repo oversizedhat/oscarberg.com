@@ -8,3 +8,7 @@
 .list-jumbotron-text {
     background-color: #f8f9fa; 
 }
+
+pre {
+    padding:10px;
+}
