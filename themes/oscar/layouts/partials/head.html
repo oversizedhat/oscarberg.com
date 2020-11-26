@@ -18,6 +18,6 @@
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
     {{ $title := print .Site.Title " | " .Title }}
-    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    {{ if .IsHome }}{{ $title = print .Site.Title " | Software Development" }}{{ end }}
     <title>{{ $title }}</title>
 </head>
