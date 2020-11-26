@@ -13,4 +13,4 @@ docker run --rm -it \
   --minify
 
 # SFTP deploy
-sftp oscarberg.com@ssh.oscarberg.com:oscarbergcom <<< $'put -r docs/*'
+sftp oscarberg.com@ssh.oscarberg.com <<< $'put -r docs/*'
