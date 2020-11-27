@@ -6,6 +6,9 @@ theme = "oscar"
 pluralizeListTitles = false
 enableEmoji = true
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [params]
   owner = "Oscar Wendelin Berg"
   projectSource = "https://github.com/oversizedhat/oscarberg.com"
