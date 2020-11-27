@@ -92,9 +92,9 @@ Again after an hour or two Travis finally got around to my job... the log illust
 So based on the fact that there was no prior release made it decided to go ahead with 1.0.0. This confused me a bit as I had actually on purpose set the version to below 1.0.0, and also made 2 improper "test" releases straight to npm registry without making git tags (shame shame on me). For a brownfield project adopting semantic-release it feels relevant to be aware of this. 
 
 ###### **The release tag in github:**
-![Release notes](/blog/img/semantic-release-git-tag.png)
-<br/>
-Note that the second "chore:" commit did not reach the release notes.
+{{% fluidimage "/blog/img/semantic-release-git-tag.png" "Release notes"%}}
+
+*Note that the second "chore:" commit did not reach the release notes.*
 
 Another thing that confused me bit was that the version in the git tag's package.json did not match the release. Not surprisingly this was the first question in the FAQ with the response being something like - well it's not really required, but if you want there is a plugin for it.
 
