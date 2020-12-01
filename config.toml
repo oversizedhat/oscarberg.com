@@ -1,10 +1,11 @@
 baseURL = ""
-languageCode = "en-us"
+languageCode = "en"
 title = "Oscar Wendelin Berg"
 publishDir = "docs"
 theme = "oscar"
 pluralizeListTitles = false
 enableEmoji = true
+enableRobotsTXT = true
 
 [markup.goldmark.renderer]
   unsafe= true
@@ -18,18 +19,8 @@ enableEmoji = true
   googleAnalyticsMesurementId = "G-SKB7HW5GSZ"
 
 [menu]
-#  [[menu.main]]
-#    name = "Home"
-#    pre = "home"
-#    url = "/"
-#    weight = 1
   [[menu.main]]
     name = "Blog"
     pre = "blog"
     url = "/blog/"
     weight = 2
-#  [[menu.main]]
-#    name = "Tags"
-#    pre = "tag"
-#    url = "/tags/"
-#    weight = 3
