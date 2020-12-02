@@ -10,14 +10,15 @@ env:
   - HUGO_DEPLOY_ENV=stage
   
 before_script:
-  - npm install
+  - npm ci
 
 script:
-  - bash build.sh
+  - npm run compile
+  - npm run lint:postbuild
 
 deploy:
   - provider: script
-    script: bash deploy-dev.sh
+    script: npm run deploy:dev
     skip_cleanup: true
     on:
-      branch: main
+      branch: npm

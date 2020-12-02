@@ -1,0 +1,31 @@
+{
+  "name": "oscarberg.com",
+  "version": "1.0.0",
+  "description": "Personal website for Oscar Berg",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "htmlhint": "~0.14.2"
+  },
+  "scripts": {
+    "serve": "bash dev.sh",
+    "build": "npm run compile && npm run lint:postbuild",
+    "compile": "bash build.sh",
+    "lint:postbuild": "npx htmlhint target",
+    "deploy:dev": "bash deploy-dev.sh",
+    "deploy:prod": "echo 'not setup for Travis'",
+    "oscarberg.com": "npm run build && bash deploy-prod.sh -y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oversizedhat/oscarberg.com.git"
+  },
+  "author": "oscar.berg <oscar@oscarberg.com> (https://www.oscarberg.com)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/oversizedhat/oscarberg.com/issues"
+  },
+  "homepage": "https://github.com/oversizedhat/oscarberg.com#readme"
+}
+q

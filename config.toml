@@ -1,7 +1,7 @@
 baseURL = ""
 languageCode = "en"
 title = "Oscar Wendelin Berg"
-publishDir = "docs"
+publishDir = "target"
 theme = "oscar"
 pluralizeListTitles = false
 enableEmoji = true

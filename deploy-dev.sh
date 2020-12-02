@@ -22,10 +22,10 @@ fi
 
 echo $commitMessage
 
-rm -rf target
-git clone -b main https://github.com/oversizedhat/oscarberg.com-dev target
-rsync -av --delete --exclude ".git" docs/ target
-cd target
+rm -rf deploy
+git clone -b main https://github.com/oversizedhat/oscarberg.com-dev deploy
+rsync -av --delete --exclude ".git" target/ deploy
+cd deploy
 git add .
 # we need the || true, as sometimes you do not have any content changes
 # and git woundn't commit and you don't want to break the CI because of that
@@ -33,4 +33,4 @@ git commit -am "$commitMessage" || true
 git push
 
 cd ..
-rm -rf target
+rm -rf deploy

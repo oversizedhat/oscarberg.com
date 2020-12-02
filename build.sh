@@ -15,7 +15,7 @@ else
 fi
 
 echo "Building for $HUGO_DEPLOY_ENV"
-echo "BaseURL $HUGO_BASEURL"
+echo "BaseURL: $HUGO_BASEURL"
 
 # HUGO Build for correct site
 docker run --rm \
@@ -23,6 +23,3 @@ docker run --rm \
   klakegg/hugo:0.79.0-alpine \
   -b $HUGO_BASEURL \
   --minify
-
-# htmlhint
-npx htmlhint docs
