@@ -5,5 +5,5 @@ docker run --rm -it \
   --volume="/etc/passwd:/etc/passwd:ro" \
   --volume="/etc/shadow:/etc/shadow:ro" \
   -p 1313:1313 \
-  klakegg/hugo:0.78.0-alpine \
+  klakegg/hugo:0.79.0-alpine \
   shell

@@ -1,14 +1,23 @@
----
-install:
-  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.78.1/hugo_0.78.1_Linux-64bit.deb
-  - sudo dpkg -i /tmp/hugo.deb
+language: node_js
+
+node_js:
+  - 14
+
+services:
+  - docker
+
+env:
+  - HUGO_DEPLOY_ENV=stage
+  
+before_script:
+  - npm install
 
 script:
-  - hugo -b https://oversizedhat.github.io/oscarberg.com-dev --minify
+  - bash build.sh
 
 deploy:
   - provider: script
     script: bash deploy-dev.sh
     skip_cleanup: true
     on:
-      branch: main
+      branch: ci

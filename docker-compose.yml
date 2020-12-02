@@ -1,5 +1,5 @@
   server:
-    image: klakegg/hugo:0.78.0-alpine
+    image: klakegg/hugo:0.79.0-alpine
     environment:
       - "DEV_SERVER_PRIVATE_IP=${DEV_SERVER_PRIVATE_IP}"
     command: server --port 8080 -b $DEV_SERVER_PRIVATE_IP

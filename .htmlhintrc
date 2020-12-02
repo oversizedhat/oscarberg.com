@@ -1,0 +1,18 @@
+{
+  "attr-value-double-quotes": false,
+  "tagname-lowercase": true,
+  "attr-lowercase": true,
+  "doctype-first": true,
+  "tag-pair": true,
+  "spec-char-escape": false,
+  "id-unique": true,
+  "src-not-empty": true,
+  "attr-no-duplication": true,
+  "title-require": true,
+  "tag-self-close": false,
+  "alt-require": false,
+  "doctype-html5": true,
+  "space-tab-mixed-disabled": "space",
+  "id-class-ad-disabled": true,
+  "attr-unsafe-chars": true
+}
