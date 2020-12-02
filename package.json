@@ -14,7 +14,8 @@
     "lint:postbuild": "npx htmlhint target",
     "deploy:dev": "bash deploy-dev.sh",
     "deploy:prod": "echo 'not setup for Travis'",
-    "oscarberg.com": "npm run build && bash deploy-prod.sh -y"
+    "oscarberg.com": "npm run build && bash deploy-prod.sh -y",
+    "hugoshell": "bash hugoshell.sh"
   },
   "repository": {
     "type": "git",
