@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Personal website for Oscar Berg",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "htmlhint": "~0.14.2"
   },
@@ -28,4 +27,3 @@
   },
   "homepage": "https://github.com/oversizedhat/oscarberg.com#readme"
 }
-q
