@@ -10,8 +10,9 @@
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="{{ "css/bootstrap.min.css" | absURL }}">
-
+    {{ $bootstrap := resources.Get "css/bootstrap/bootstrap.min.css" }}
+    <link rel="stylesheet" href="{{ $bootstrap.Permalink }}">
+    
     {{/* Minify css */}}
     {{ $css := resources.Get "css/style.css" }}
     {{ $style := $css | resources.Minify | resources.Fingerprint}}

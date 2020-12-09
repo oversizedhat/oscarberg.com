@@ -24,3 +24,8 @@ enableRobotsTXT = true
     pre = "blog"
     url = "/blog/"
     weight = 2
+
+[module]
+  [[module.mounts]]
+    source = "./node_modules/bootstrap/dist/css"
+    target = "./assets/css/bootstrap"
