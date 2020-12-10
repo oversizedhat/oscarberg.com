@@ -2,7 +2,8 @@
     image: klakegg/hugo:0.79.0-alpine
     environment:
       - "DEV_SERVER_PRIVATE_IP=${DEV_SERVER_PRIVATE_IP}"
-    command: server --port 8080 -b $DEV_SERVER_PRIVATE_IP
+      - "HUGO_FLAGS=${HUGO_FLAGS}"
+    command: server --port 8080 -b $DEV_SERVER_PRIVATE_IP $HUGO_FLAGS
     volumes:
       - ".:/src"
     ports:

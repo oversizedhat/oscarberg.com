@@ -10,14 +10,17 @@
     "htmlhint": "~0.14.2"
   },
   "scripts": {
-    "serve": "bash dev.sh",
+    "serve": "bash dev.sh drafts",
+    "serve:prod": "bash dev.sh",
     "build": "npm run compile && npm run lint:postbuild",
     "compile": "bash build.sh",
     "lint:postbuild": "npx htmlhint target",
     "deploy:dev": "bash deploy-dev.sh",
     "deploy:prod": "echo 'not setup for Travis'",
-    "oscarberg.com": "npm run build && bash deploy-prod.sh -y",
-    "hugoshell": "bash hugoshell.sh"
+    "oscarberg.com": "npm version patch && bash deploy-prod.sh -y",
+    "hugoshell": "bash hugoshell.sh",
+    "preversion": "npm run build",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
