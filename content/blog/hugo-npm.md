@@ -136,4 +136,6 @@ deploy:
       branch: main
 ```
 
+This website is the output so far. With sources public in github: https://github.com/oversizedhat/oscarberg.com.
+
 :heart:
