@@ -56,7 +56,7 @@ So out went the sexy swiss theme and in came the cli command I first found in th
 ```
 oscarberg.com/main> hugo new theme oscar
 ```
-Or basically I pretty much followed this guide: https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/'
+Or basically I pretty much followed this guide: https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/
 Again it came with Bootstrap, but now I was more ready to understand that I needed some kind of UI framework and why not Bootstrap. It felt like a good choice for what I wanted to do, which as to keep it simple.
 
 #### Takeaways

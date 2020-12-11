@@ -10,7 +10,7 @@
     "htmlhint": "~0.14.2"
   },
   "scripts": {
-    "serve": "bash dev.sh drafts",
+    "serve": "bash dev.sh --with-drafts",
     "serve:prod": "bash dev.sh",
     "build": "npm run compile && npm run lint:postbuild",
     "compile": "bash build.sh",

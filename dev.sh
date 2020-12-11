@@ -2,7 +2,7 @@
 export DEV_SERVER_PRIVATE_IP=$(hostname -I | awk '{print $1}')
 
 # build drafts
-if [ "$1" == "drafts" ]
+if [ "$1" == "--with-drafts" ]
 then
   export HUGO_FLAGS="-D"
 fi
