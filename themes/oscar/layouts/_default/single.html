@@ -7,6 +7,9 @@
     <time datetime="{{ $dateTime }}"><p class="small">{{ .PublishDate.Format $dateFormat }}</p></time>
     {{ .Content }}
     <br/>
+    Feel free to get in touch if you have any questions.
+    {{- partial "minime.html" . -}}
     {{ partial "metadata.html" . }}
+    
 </div>
 {{ end }}

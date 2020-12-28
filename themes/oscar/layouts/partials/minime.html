@@ -1,0 +1,14 @@
+<div>
+    <a class="btn btn-primary btn-sm" id="getintouch_mini" role="button" onclick="MeMail()">Click to reveal contact details</a>
+    
+    <a class="btn btn-default" role="button" href="{{.Site.Params.contactLinkedIn}}">
+      <img
+        class="img-responsive"
+        width="24"
+        src="{{ "img/icon_linkedin64.png" | absURL }}"
+        alt="dude"
+      />
+    </a>
+  
+    <script>registerContactElement("getintouch_mini");</script>
+</div>

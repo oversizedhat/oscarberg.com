@@ -3,12 +3,12 @@
     {{- partial "head.html" . -}}
 
     {{/* Bundle and minify scripts */}}
-    {{ $main := resources.Get "js/main.js" }}
+    {{ $main := resources.Get "js/main.js" | resources.ExecuteAsTemplate "_main.js" . }}
     {{ $cookie := resources.Get "js/cookieBanner.js" }}
     {{ $concatJs := slice $main $cookie | resources.Concat "js/bundle.js" }}
     {{ $bundleJs := $concatJs | resources.Minify | resources.Fingerprint }}
     
-    <script async src="{{ $bundleJs.Permalink }}"></script>
+    <script src="{{ $bundleJs.Permalink }}"></script>
     
     <body> 
         {{- partial "header.html" . -}}

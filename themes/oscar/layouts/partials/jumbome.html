@@ -1,19 +1,11 @@
 <div class ="container">
-<script type="text/javascript">
-  function MeMail() {
-    var memail = atob({{.Site.Params.contact64 }});
-    if (document.getElementById('getintouch').text.indexOf("@") != -1) {
-      window.location.href = "mailto:"+memail;
-    }
-    document.getElementById('getintouch').text=memail;
-  }
-</script>
-    <div class="jumbotron" style="background-image:url('{{"img/bg5.jpg" | relURL }}')">
+    <div class="jumbotron shadow p-3 mb-5" style="background-image:url('{{"img/bg5.jpg" | relURL }}')">
       <h1 class="display-4">{{.Site.Params.owner | safeHTML}}</h1>
       <h2>Software Developer & leader</h2>
       <p class="lead">I am a generalist software developer, architect and leader with broad interest in development of products, workflows and tools.</p>
       <a class="btn btn-primary btn-lg" id="getintouch" role="button" onclick="MeMail()">Get in touch</a>
-     
+      <script>registerContactElement("getintouch");</script>
+
       <a class="btn btn-default" role="button" href="{{.Site.Params.contactLinkedIn}}">
         <img
           class="img-responsive"
