@@ -1,6 +1,8 @@
+{{$currPage := .Title }}
 {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
 {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-    <a class="btn btn-outline-primary" href={{ .RelPermalink }} role="button">{{$name}} <sup>{{$cnt}}</sup></a>
+    {{ $buttonStyle := cond (eq .Title $currPage) "btn-primary" "btn-outline-primary"}}
+    <a class="btn {{ $buttonStyle }} my-1" href={{ .RelPermalink }} role="button">{{$name}} <sup>{{$cnt}}</sup></a>
 {{end}}
 {{end}}
 <hr/>

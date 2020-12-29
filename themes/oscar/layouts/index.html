@@ -19,8 +19,18 @@
         {{ .Content }}
     </div>
   {{ end }}
-  <div class="container shadow p-3 mb-5" style="background-color:rgb(54, 102, 131)">
+  <div class="container shadow p-3 mb-4" style="background-color:rgb(54, 102, 131)">
   <p class="lead" style="color:white">For a detailed CV, feel free to get in touch via email or LinkedIn.</p>
   {{- partial "minime.html" . -}}
+  </div>
+
+  <div class="container">
+    <h3>Latest posts</h3>
+    {{- range ( where site.RegularPages "Section" "blog" | first 3 ) }}
+    <p>
+        <h4><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+        {{ partial "metadata.html" . }}
+    </p>
+    {{ end }}
   </div>
 {{ end }}
