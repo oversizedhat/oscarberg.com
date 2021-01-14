@@ -18,7 +18,7 @@
     {{ $style := $css | resources.Minify | resources.Fingerprint}}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-    {{ $title := print .Site.Title " | " .Title }}
+    {{ $title := print .Title " | " .Site.Title }}
     {{ if .IsHome }}{{ $title = print .Site.Title " | Software Development" }}{{ end }}
     <title>{{ $title }}</title>
 </head>
