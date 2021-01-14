@@ -12,6 +12,7 @@ enableRobotsTXT = true
 
 [params]
   owner = "Oscar Wendelin Berg"
+  blogBanner = "I try to motivate myself to write about my own learnings. The quest for clean and simple that could be useful for others (or my future self). A lot of it workflow related..."
   projectSource = "https://github.com/oversizedhat/oscarberg.com"
   contact64 = "b3NjYXJAb3NjYXJiZXJnLmNvbQ=="
   contactLinkedIn = "https://www.linkedin.com/in/bergoscar"
