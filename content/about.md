@@ -15,7 +15,7 @@ brags: [
     "I enjoy fiddling with Node.js and trying to keep up in the fast-moving JavaScript community.",
   #  'img/nodejs.png','img/npm.png',
     ":coffee:",
-    "I have spent a lots of time in a love/hate relationship with Jenkins and it's myriad of plugins.",
+    "I have spent a lots of time in a love/hate relationship with Jenkins and it's myriad of plugins...",
     ":white_check_mark:",
     "I have a decent understanding of cloud. I've seen the light in the configuration tunnel (embraced IaC principles with Serverless Framework, CloudFormation templates, Ansible playbooks and more).",
   #  'img/aws.png',
@@ -24,8 +24,8 @@ brags: [
     ":point_up:",
     "I believe that rules are meant to be <s>broken</s> understood and followed if and when they make sense and auto tested in any way possible.",
     ":interrobang:",
-    "I prefer working with Unix-like operating systems. Linux for back-end/cloud, MacOS for front-end.",
-    ":computer:",
+    # "I prefer working with Unix-like operating systems. Linux for back-end/cloud, MacOS for front-end.",
+    # ":computer:",
     "I've made countless poor decisions and solutions that did not survive the test of time (but hopefully a few good ones too).",
     ":sweat_smile:"
 ]

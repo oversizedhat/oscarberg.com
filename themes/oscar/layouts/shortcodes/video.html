@@ -1,0 +1,9 @@
+<div><img class="img-fluid pb-3" src="{{ .Get 0 | absURL }}" alt="{{ .Get 1 }}"></div>
+
+<div class="img-fluid pb-3">
+    <video controls style="width:100%">
+        <source src="{{ .Get 0 | absURL }}" type="video/mp4">
+        <p>Your browser doesn't support HTML5 video. Here is
+           a <a href="{{ .Get 0 | absURL }}">link to the video</a> instead.</p>
+    </video>
+</div>

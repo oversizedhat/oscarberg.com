@@ -12,3 +12,7 @@
 pre {
     padding:10px;
 }
+
+.post-image {
+    max-width: 500px;
+}
