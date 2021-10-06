@@ -1,1 +1,7 @@
-<div><img class="img-fluid pb-3" src="{{ .Get 0 | absURL }}" alt="{{ .Get 1 }}"></div>
+<div>
+    {{- $image := resources.Get (.Get 0) -}}
+    {{- $compressionInstructions := (print $image.Width "x jpg q85") -}}
+  
+    {{ $image := $image.Resize ($compressionInstructions) }}
+    <img class="img-fluid pb-3" src="{{ $image.Permalink | relURL }}" alt="{{ .Get 1 }}">
+</div>

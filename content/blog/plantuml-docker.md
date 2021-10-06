@@ -4,7 +4,7 @@ date: 2021-01-14T07:44:39Z
 draft: false
 tags: ["docker", "plantuml"]
 ---
-{{% fluidimage "/blog/img/plantuml-watcher.png" "Release notes"%}}
+{{% fluidimage "/img/plantuml-watcher.png" "Release notes"%}}
 <br/>
 
 [PlantUML](https://plantuml.com/) is a great tool that allows you to write your diagrams and sequences in plain text and have them rendered to image formats such as PNG and SVG. The downside is that you pretty much have to live with, and sometimes fight against, automatic layouting and opinionated visuals (even though some styling is possible). Personally I love it.

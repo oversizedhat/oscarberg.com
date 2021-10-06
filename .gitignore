@@ -2,3 +2,4 @@ target
 docs
 node_modules
 deploy/
+resources
