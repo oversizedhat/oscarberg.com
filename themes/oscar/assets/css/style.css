@@ -6,7 +6,7 @@
 
 
 .list-jumbotron-text {
-    background-color: #f8f9fa; 
+    background-color: #fcff64; 
 }
 
 pre {
@@ -15,4 +15,9 @@ pre {
 
 .post-image {
     max-width: 500px;
+}
+
+.landing-cv {
+    background-color:rgb(54, 102, 131);
+    color:white;
 }
