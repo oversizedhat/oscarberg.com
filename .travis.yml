@@ -21,4 +21,4 @@ deploy:
     script: npm run deploy:dev
     skip_cleanup: true
     on:
-      branch: ghtoken
+      branch: main

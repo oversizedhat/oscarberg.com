@@ -12,8 +12,6 @@ then
     commitMessage="build from local env `date`"
 else
     echo "Travis CI deploy"
-    # echo $GITHUB_AUTH_SECRET > ~/.git-credentials && chmod 0600 ~/.git-credentials
-    # git config --global credential.helper store
     git config --global user.email "oversizedhat-bot@users.noreply.github.com"
     git config --global user.name "oversizedhat-bot"
     git config --global push.default simple
