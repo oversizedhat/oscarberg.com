@@ -12,8 +12,8 @@ then
     commitMessage="build from local env `date`"
 else
     echo "Travis CI deploy"
-    echo $GITHUB_AUTH_SECRET > ~/.git-credentials && chmod 0600 ~/.git-credentials
-    git config --global credential.helper store
+    # echo $GITHUB_AUTH_SECRET > ~/.git-credentials && chmod 0600 ~/.git-credentials
+    # git config --global credential.helper store
     git config --global user.email "oversizedhat-bot@users.noreply.github.com"
     git config --global user.name "oversizedhat-bot"
     git config --global push.default simple
@@ -30,7 +30,7 @@ git add .
 # we need the || true, as sometimes you do not have any content changes
 # and git woundn't commit and you don't want to break the CI because of that
 git commit -am "$commitMessage" || true
-git push
+git push https://$GH_TOKEN@github.com/oversizedhat/oscarberg.com-dev.git
 
 cd ..
 rm -rf deploy
