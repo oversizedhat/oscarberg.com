@@ -28,8 +28,5 @@ enableRobotsTXT = true
 
 [module]
   [[module.mounts]]
-    source = "./node_modules/bootstrap/dist/css"
-    target = "./assets/css/bootstrap"
-  [[module.mounts]]
     source = "./blog-images"
     target = "./assets/img"

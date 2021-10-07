@@ -20,6 +20,6 @@ echo "BaseURL: $HUGO_BASEURL"
 # HUGO Build for correct site
 docker run --rm \
   --volume $(pwd):/src \
-  klakegg/hugo:0.87.0-alpine \
+  klakegg/hugo:ext-alpine \
   -b $HUGO_BASEURL \
   --minify
