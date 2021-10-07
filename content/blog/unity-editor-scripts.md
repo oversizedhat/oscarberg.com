@@ -16,13 +16,13 @@ Even though I feel I’ve only been touching the surface (this is the first real
 
 The app features a dynamic interactive scene where the user can interact with the Earth and other terrestrial bodies like the Sun and the Moon. In a “sandbox” mode the user can interact with the scene in different ways; like manipulating date & time, adding locations, dropping down to the Earth’s surface level etc. 
 
-{{% fluidimage "/img/unity-editor-scripts-sandbox.png" "Space & Time app - sandbox mode" %}}
+{{% fluidimage "/img/blog/unity-editor-scripts-sandbox.png" "Space & Time app - sandbox mode" %}}
 
 In the second part of the app we guide the user in the same scene. We enable/disable features, change camera views and try to explain different things. Basically we act as a teacher.
 
 In the app it’s today possible to choose between about 16 guides (in code we call them lessons...) each of them containing somewhere between 7-20 steps. So it's well over 200 interactive steps in total.
 
-{{% fluidimage "/img/unity-editor-scripts-guides.png" "Space & Time app - interactive guides" %}}
+{{% fluidimage "/img/blog/unity-editor-scripts-guides.png" "Space & Time app - interactive guides" %}}
 
 Each of these steps needs enough configuration to display the scene in a certain way.
 
@@ -39,11 +39,11 @@ Basically a lesson is made up of two prefab types. One is the lesson configurati
 
 When starting a lesson during editor play mode the specific lesson step prefabs are added to the scene and it’s easy and intuitive how to interact with them.
 
-{{% fluidimage "/img/unity-editor-scripts-intuitive.png" "Space & Time app - standard Unity scene workflow" %}}
+{{% fluidimage "/img/blog/unity-editor-scripts-intuitive.png" "Space & Time app - standard Unity scene workflow" %}}
 
 We rely on editor scripts to create and edit the configuration of any lesson and lesson step. The nicest thing is being able to modfiy a step directly in the editor during play mode and have the step instantly reload on any change, and also saving the updated prefab (if it passes through a bunch of validation tests written to help avoid human errors). And as we have the prefab in the scene we can even pull in custom game objects straight into the scene, layout and save. A huge benefit is that we can also edit/iterate on localized text pretty much exactly how it will be displayed in the final build.
 
-{{% fluidimage "/img/unity-editor-scripts-custom.png" "Space & Time app - custom game objects" %}}
+{{% fluidimage "/img/blog/unity-editor-scripts-custom.png" "Space & Time app - custom game objects" %}}
 
 #### A script written to run only once can still save you time
 

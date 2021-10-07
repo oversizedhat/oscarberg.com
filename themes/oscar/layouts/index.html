@@ -1,5 +1,21 @@
 {{ define "main" }}
   {{- partial "jumbome.html" . -}}
+  <div class="container pb-5">
+    <div class="card">
+      {{- $image := resources.Get "/img/snt-screenshot-iphone.png" -}}
+      {{- $compressionInstructions := (print $image.Width "x jpg q85") -}}
+    
+      {{ $image := $image.Resize ($compressionInstructions) }}
+      <img class="card-img-top" src="{{ $image.Permalink | relURL }}" alt="Space & Time iPhone screenshot"/>
+      <div class="card-body">
+        <p class="card-text"><span class="badge align-bottom">
+          <a href="https://apps.apple.com/app/space-time-lab/id1582801439"><img src="/img/appstore-dl-badge.svg"/></a>
+        </span> Explore the Earth from an astronomical perspective in our app Space & Time! 🚀🚀🚀🚀🚀
+      </p>
+      </div>
+    </div>
+  </div>
+
   {{ range .Pages }}
     <div class="container" style="background-color:{{ .Params.color }};">
         {{ range .Params.brags }}
@@ -19,6 +35,7 @@
         {{ .Content }}
     </div>
   {{ end }}
+
   <div class="container shadow p-3 mb-5 mt-5 landing-cv rounded">
     <p class="lead">For a detailed CV, feel free to get in touch via email or LinkedIn.</p>
     {{- partial "minime.html" . -}}

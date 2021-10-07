@@ -28,5 +28,5 @@ enableRobotsTXT = true
 
 [module]
   [[module.mounts]]
-    source = "./blog-images"
+    source = "./images"
     target = "./assets/img"
