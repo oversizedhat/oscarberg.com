@@ -1,5 +1,5 @@
 # oscarberg.com
-
+[![Build Status](https://travis-ci.com/oversizedhat/oscarberg.com.svg?branch=main)](https://travis-ci.com/oversizedhat/oscarberg.com)  
 HUGO static site and theme for oscarberg.com using Bootstrap 4 for UI
 
 Landing page and blog pretty much.
