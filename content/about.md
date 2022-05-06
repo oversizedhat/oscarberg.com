@@ -4,6 +4,8 @@ date: 2020-11-09T14:39:18Z
 draft: false
 color: "white"
 brags: [
+    'I do software development contract work from Stockholm. Currently part of making book-magic at <a href="https://www.nuanxed.com">Nuanxed</a>.',
+    ":book:",
     "For the past 9 years I've been in leadership positions and part of growing a company from 5 to 100 employees.",
     ":rocket:",
     "Since starting as a software developer in 2004 I've dealt mostly with games development and web stuff. I've had many different roles but always tried to keep at least a few fingers coding.",
@@ -17,7 +19,7 @@ brags: [
     ":coffee:",
   #  "I have spent a lots of time in a love/hate relationship with Jenkins and it's myriad of plugins...",
   #  ":white_check_mark:",
-    "I have a decent understanding of cloud infrastructure. I've seen the light in the configuration tunnel (embraced IaC principles with Serverless Framework, CloudFormation templates, Ansible playbooks and more).",
+    "I have a decent understanding of cloud infrastructure. I've seen the light in the configuration tunnel (embraced IaC principles with Docker, Kubernetes,  Serverless Framework, CloudFormation templates, Ansible playbooks and more).",
   #  'img/aws.png',
     ':cloud:',
     '"Defer commitment" is my favorite Lean principle. Architect your solution so that fewer commitments are irreversible. Defer commitment on irreversible decisions to the latest point possible. OK admittedly a bit pretentious. <i>In other words: Assume you will learn stuff down the line so try not to paint yourself into a corner...</i>',
