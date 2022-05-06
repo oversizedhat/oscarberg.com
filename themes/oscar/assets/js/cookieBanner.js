@@ -15,4 +15,4 @@ function cookieBanner_init(){
         cookieBanner_show();
     }
 }
-window.onload = cookieBanner_init();
+window.onload = setTimeout(cookieBanner_init, 200);
