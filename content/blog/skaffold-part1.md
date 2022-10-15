@@ -1,8 +1,8 @@
 ---
 title: "Designing a microservices application using Kubernetes and Skaffold - part 1"
 date: 2022-10-15T08:01:34Z
-tags: ["skaffold", "kubernetes"]
-draft: true
+tags: ["skaffold", "kubernetes", "GCP"]
+draft: false
 ---
 
 Every now and then you get the chance to build something from scratch. A greenfield project! Endless possibilities often combined with the requirement to have something up and running as quickly as possible, and with low running costs.
