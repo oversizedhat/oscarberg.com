@@ -7,7 +7,7 @@ draft: false
 
 Every now and then you get the chance to build something from scratch. A greenfield project! Endless possibilities often combined with the requirement to have something up and running as quickly as possible, and with low running costs.
 
-<p class="lead">WOW! A chance to use past experiences but hopefully not make the exact same mistakes done in the past...</p>
+<p class="lead">WOW! A chance to use past experiences but hopefully not make the exact same mistakes made in the past...</p>
 
 The thought with this post and upcoming ones is to share some light on the thought process and design choices made when starting from scratch and also, in later parts, some details regarding the tech stack that is still forming.
 
