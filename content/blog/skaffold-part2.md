@@ -2,7 +2,7 @@
 title: "Designing a microservices application using Kubernetes and Skaffold - part 2"
 date: 2022-10-16T08:01:34Z
 tags: ["skaffold", "kubernetes", "GCP", "minikube", "docker"]
-draft: true
+draft: false
 ---
 
 There is a part 1 to post <a href="/blog/skaffold-part1/">here</a>.
