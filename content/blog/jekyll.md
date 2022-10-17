@@ -11,7 +11,7 @@ Likely I spent as much time on the webpage as I did on the project itself so I t
 
 I choose Jekyll purely based on the fact that it seemed dead simple with GitHub pages, which felt like a good idea as the project was in Github and my requirements where minimal, and something like this:
 - Easy to work with
-- Responsible UI out of the box
+- Responsive UI out of the box
 - Site needs to be okeyish looking without me having to put effort on it (theme)
 - Cheap or free
 
