@@ -62,9 +62,11 @@ Having previously worked with AWS I found the most effective way to handle secre
 So put your secrets in a secure key value store like GCP Secret Manager and feed your containers deploy-time with environment variables or even have your services fetch the secrets runtime when they boot up. In the latter approach automatically rotated secrets is easier to implement.
 
 
-#### Some outakes from part 1
+#### Some outtakes from part 1
 
 - Carefully read and adhere to the <a href="https://12factor.net/">12-factor app</a> guidelines. Make your own set of rules that extend them and/or further define how the rules are applied in your specific setup. 
 - Use a monorepo setup unless you really know what you are doing. When starting up a project you definitely don't want to waste time with complex repository, build and branch management. Instead go for having a single repo with a set of branch rules that build and deploy as you see fit.
 - Try to build something that is not relying too heavily on third party tools. After about 8 months using Skaffold the experience has been positive but the question remains if it will stand the test of time. Here I am not sure. And like with any moving codebase you will find issues. Some of them might be painful. Choose your weapons with care, and keep your dependencies as shallow as possible. In reality Skaffold provides us with some basic features to help build docker images and deploy kubernetes manifests to any cluster (local or managed). Replacing Skaffold with something that is designed to solve the same challenges won’t be that cumbersome.
 - Design with security in mind from day 1. If you accidentally exposed a secret for example by pushing it to a codebase it should be considered exposed forever and must be replaced. Having a setup for this from start limits the need to share secrets betwen devs in Slack messages, emails etc.
+
+Onwards to part 2 <a href="/blog/skaffold-part2/">here</a>.
