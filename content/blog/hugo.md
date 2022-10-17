@@ -7,7 +7,7 @@ tags: ["hugo", "static site generator"]
 Compared to last post about Jekyll I wanted to take a static site a bit further and build my own personal website (this one) so the requirements I had were a bit more defined this time (well, in reality still just in my own head, but anyways). Hoping that I will spend some time on this website as well as ENJOY spending time on it I wanted something:
 
 - Easy **and fun** to work with
-- Responsible UI out of the box
+- Responsive UI out of the box
 - Site needs to look the way I want (without me having to put a lot of effort on it)
 - Cheap or free
 - Easy to extend in future
