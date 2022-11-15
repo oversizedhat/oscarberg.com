@@ -6,7 +6,7 @@ color: "white"
 brags: [
     'I do software development contract work from Stockholm. Currently part of making book-magic at <a href="https://www.nuanxed.com">Nuanxed</a>.',
     ":book:",
-    "2011-2020 I spent in leadership positions taking part of growing a company from 5 to 100 employees. Go <a href=\"https://www.quickpin.com\">Quickspin!</a>",
+    "2011-2020 I spent in leadership positions taking part of growing a company from 5 to 100 employees. Go <a href=\"https://www.quickspin.com\">Quickspin!</a>",
     ":rocket:",
     "Since starting as a software developer in 2004 I've dealt mostly with games development and web stuff. I've had many different roles but always tried to keep at least a few fingers coding.",
     ":construction:",
