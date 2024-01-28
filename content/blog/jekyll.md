@@ -2,7 +2,7 @@
 title: "Static site generators part 1 - Jekyll"
 date: 2020-11-09T14:39:18Z
 draft: false
-tags: ["jekyll", "static site generator", "arduino"]
+tags: ["jekyll", "static site generator"]
 ---
 Recently I did a low-tech hamstermonitoring setup with Arduino and Grafana. I decided the end result was fun enough to share, and did a blog post/webpage of it:
 https://oversizedhat.github.io/hamstermonitor

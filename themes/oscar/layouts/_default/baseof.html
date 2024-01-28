@@ -8,6 +8,7 @@
     {{ $concatJs := slice $main $cookie | resources.Concat "js/bundle.js" }}
     {{ $bundleJs := $concatJs | resources.Minify | resources.Fingerprint }}
     
+    <script src="/js/feather.min.js"></script>
     <script src="{{ $bundleJs.Permalink }}"></script>
     
     <body> 
@@ -18,4 +19,7 @@
         {{- partial "footer.html" . -}}
         {{- partial "cookiebanner.html" . -}}
     </body>
+    <script>
+        feather.replace();
+    </script>
 </html>

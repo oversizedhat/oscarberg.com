@@ -4,7 +4,8 @@
   "description": "Personal website for Oscar Berg",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "~4.5.3"
+    "bootstrap": "~4.5.3",
+    "feather-icons": "^4.29.1"
   },
   "devDependencies": {
     "htmlhint": "~0.14.2"

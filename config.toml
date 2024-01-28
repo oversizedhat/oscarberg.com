@@ -22,7 +22,7 @@ enableRobotsTXT = true
 [menu]
   [[menu.main]]
     name = "Blog"
-    pre = "blog"
+    pre = "book-open"
     url = "/blog/"
     weight = 2
 
@@ -30,3 +30,7 @@ enableRobotsTXT = true
   [[module.mounts]]
     source = "./images"
     target = "./assets/img"
+
+  [[module.mounts]]
+    source = "./node_modules/feather-icons/dist/feather.min.js"
+    target = "./static/js/feather.min.js"
