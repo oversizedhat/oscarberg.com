@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container text-break">
     {{ partial "alltags.html" . }}
-    <h4>{{ .Title }}</h4>
+    <h2>{{ .Title }}</h2>
     {{ $dateTime := .PublishDate.Format "2006-01-02" }}
     {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
     <time datetime="{{ $dateTime }}"><p class="small">Written by: Oscar Wendelin Berg, {{ .PublishDate.Format $dateFormat }}</p></time>
