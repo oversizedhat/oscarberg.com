@@ -11,7 +11,7 @@ elif [ $HUGO_DEPLOY_ENV = "stage" ]
 then
   HUGO_BASEURL="https://oversizedhat.github.io/oscarberg.com-dev"
 else
-  HUGO_BASEURL="//$(hostname -I | awk '{print $1}'):8080"
+  HUGO_BASEURL="http://localhost:8080"
 fi
 
 echo "Building for $HUGO_DEPLOY_ENV"

@@ -5,7 +5,7 @@ HUGO static site and theme for oscarberg.com using Bootstrap 4 for UI
 Landing page and blog pretty much.
 
 ### Pre-reqs
-Only tested on Ubuntu.
+Note: Setup only tested on Ubuntu and MacOS.
 
 - npm
 - docker + docker-compose (for running hugo)
