@@ -3,7 +3,7 @@
         <div class="container">
 
             <!--<a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">OWB</a>-->
-            <a class="btn btn-outline-primary" href="{{ .Site.BaseURL | absURL }}" role="button">OWB</a>
+            <a class="nav-link" href="{{ .Site.BaseURL | absURL }}"><i data-feather="home"></i></a>
             
             {{ range .Site.Menus.main }}
             <a class="nav-link" href="{{ .URL }}">
