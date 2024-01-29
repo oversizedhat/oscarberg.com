@@ -1,6 +1,6 @@
 {
   "name": "oscarberg.com",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "Personal website for Oscar Berg",
   "main": "index.js",
   "dependencies": {
