@@ -21,3 +21,7 @@ pre {
     background-color:rgb(54, 102, 131);
     color:white;
 }
+
+.jumbome {
+    background-image:url('{{"img/bg5.jpg" | relURL }}')
+}

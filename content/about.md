@@ -2,7 +2,6 @@
 title: "About"
 date: 2020-11-09T14:39:18Z
 draft: false
-color: "white"
 brags: [
     'I do software development contract work from Stockholm. Currently part of making book-magic at <a href="https://www.nuanxed.com">Nuanxed</a>.',
     ":book:",

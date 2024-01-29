@@ -8,9 +8,30 @@ $container-max-widths: (
     md: 720px,
     lg: 960px,
     xl: 1140px,*/
-    xxl: 980px
+    lg: 980px,
+    /*xl: 980px,
+    xxl: 980px*/
 );
 
 @import "../../../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+// Color mode variables in _root.scss
+@include color-mode(dark) {
+    // CSS variable overrides here...
+    .jumbome {
+        background-color: var(--bs-primary-bg-subtle);
+        background-blend-mode: soft-light;
+    }
+    .list-jumbotron-text {
+        background-color: black; 
+    }
+    
+    // code blocks
+    .highlight {
+        pre {
+            background-color: rgb(24, 23, 24) !important; 
+        }
+    }
+  }

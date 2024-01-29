@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     
     {{/* Minify css */}}
-    {{ $css := resources.Get "css/style.css" }}
-    {{ $style := $css | resources.Minify | resources.Fingerprint}}
+    {{ $css := resources.Get "css/style.css" }}    
+    {{ $style := resources.ExecuteAsTemplate "css/main.css" $ $css | resources.Minify | resources.Fingerprint}}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
     {{ $title := print .Title " | " .Site.Title }}

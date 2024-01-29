@@ -1,9 +1,9 @@
 
-    <nav id="nav" class="navbar sticky-top shadow p-3 mb-5 bg-white">
+    <nav id="nav" class="navbar sticky-top shadow p-3 mb-5 bg-body">
         <div class="container">
 
-            <!--<a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">OWB</a>-->
             <a class="nav-link" href="{{ .Site.BaseURL | absURL }}"><i data-feather="home"></i></a>
+            <a class="nav-button" data-bs-theme-value="toggle"></a>
             
             {{ range .Site.Menus.main }}
             <a class="nav-link" href="{{ .URL }}">
