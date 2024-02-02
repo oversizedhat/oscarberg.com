@@ -38,7 +38,7 @@ Copilot Chat has however still not become part of my daily work. Not sure if it'
 > #### :thumbsup: Inspiration and "snippets"
 > Quite often the Copilot suggestions are not 100% accurate or satisfactory, but even then they can be useful. Maybe the suggestion provided a valid regex that could be used so less thinking about that, but **exactly** how it was used needed to be altered. Or maybe the suggested solution made me reflect on the solution altogheter, and more quickly made me realize that the approach I started was bad to begin with.
 
-## Where Github Copilot does't shine
+## Where Github Copilot does'nt shine
 I think my overall concern with Copilot is that it's suddenly easier to quickly create a lot of code mass. It feels interesting to refect on the longer term consequences of this. A bunch of junior developers with Copilot could do a lot of damage without solid routines when introducing new code to a larger framework. Tech debt is a very effective productivity killer...
 
 > #### :thumbsdown: Poor at solving even just slightly larger programming problems on it's own
@@ -46,14 +46,14 @@ I think my overall concern with Copilot is that it's suddenly easier to quickly 
 > 
 > Even with test cases in place it seems Copilot Chat most often struggles even with simpler algorthims creating solutions that does'nt pass the tests, or passes just a few of them. I've however had a few positive experience with simple prompts like "Can you make this consume less runtime memory?" or "Can you simplify this?" but quite often the solutions end up flawed, not considering edge cases and existing test cases end up failing.
 
-> #### :thumbsdown: Prone to copy & paste style solutions
+> #### :thumbsdown: Prone to copy & paste-style solutions
 > Copilot primarily helps you write new code but often when you introduce new code you may need to reflect on the existing code. Copilot will not suggest necessary abstractions or in any way respect DRY. If the abstractions are there however, Copilot will make use of them.
 
 > #### :thumbsdown: Architecture...
 > Perhaps goes without saying but Copilot will help you write basic code but it wont help you if you are on the wrong path to begin with. Or if there is non-obvious solution within reach. Or how your code will behave in a complex environment handling concurrency, graceful shutdowns etc etc. Instead Copilot might keep pushing you in the wrong direction, driving tech debt and code mass. Github Copilot will also gladly suggest solutions that break basic programming principles like DRY and Single responisiblity. 
 
 > #### ...and those the quick hacks :smile:
-> On several occations Copilot suggest comments similar to  the below
+> On several occasions Copilot suggest comments similar to  the below
 ```sh
 // This is just a quick hack. TODO improve later
 ```
