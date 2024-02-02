@@ -39,7 +39,7 @@ Copilot Chat has however still not become part of my daily work. Not sure if it'
 > Quite often the Copilot suggestions are not 100% accurate or satisfactory, but even then they can be useful. Maybe the suggestion provided a valid regex that could be used so less thinking about that, but **exactly** how it was used needed to be altered. Or maybe the suggested solution made me reflect on the solution altogheter, and more quickly made me realize that the approach I started was bad to begin with.
 
 ## Where Github Copilot does'nt shine
-I think my overall concern with Copilot is that it's suddenly easier to quickly create a lot of code mass. It feels interesting to refect on the longer term consequences of this. A bunch of junior developers with Copilot could do a lot of damage without solid routines when introducing new code to a larger framework. Tech debt is a very effective productivity killer...
+I think my overall concern with Copilot is that it's suddenly easier to quickly create a lot of code mass. It feels interesting to reflect on the longer term consequences of this. A bunch of junior developers with Copilot could do a lot of damage without solid routines when introducing new code to a larger framework. Tech debt is a very effective productivity killer...
 
 > #### :thumbsdown: Poor at solving even just slightly larger programming problems on it's own
 > My experience is that Copilot thrives in as small scope as possible. In rare situations I have tried using Copilot Chat to write bigger blocks of code, classes or functions, and this has most often been quite fruitless.
