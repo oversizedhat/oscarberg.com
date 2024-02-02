@@ -18,7 +18,7 @@ brags: [
     ":coffee:",
   #  "I have spent a lots of time in a love/hate relationship with Jenkins and it's myriad of plugins...",
   #  ":white_check_mark:",
-    "I have a solid understanding of cloud infrastructure. I have managed company AWS and GCP accounts. I've seen the light in the configuration tunnel (embraced IaC principles with Docker, Kubernetes, Terraform, Serverless Framework, CloudFormation templates, Ansible playbooks and more), and gotten my hands dirty with monitoring, logging and alerting.",
+    "I have a solid understanding of cloud infrastructure. I have managed company AWS and GCP accounts and seen the light in the configuration tunnel (embraced IaC principles with Docker, Kubernetes, Terraform, Serverless Framework, CloudFormation templates, Ansible playbooks and more), and gotten my hands dirty with monitoring, logging and alerting.",
   #  'img/aws.png',
     ':cloud:',
     '"Defer commitment" is my favorite Lean principle. Architect your solution so that fewer commitments are irreversible. Defer commitment on irreversible decisions to the latest point possible. OK admittedly a bit pretentious. <i>In other words: Assume you will learn stuff down the line so try not to paint yourself into a corner...</i>',

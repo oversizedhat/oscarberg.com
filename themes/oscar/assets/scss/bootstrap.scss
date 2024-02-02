@@ -17,6 +17,13 @@ $container-max-widths: (
 
 // Then add additional custom code here
 
+blockquote {
+    p {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
 // Color mode variables in _root.scss
 @include color-mode(dark) {
     // CSS variable overrides here...
